@@ -31,14 +31,12 @@ class FriendsList extends React.Component {
     this.setState({ showModal: false });
   };
 
-
   //Calling the addFavourite action creator with the index on which it was clicked
   onaddFavourite = (i) => {
     this.props.addFavourite(i);
   };
 
-
-  //Changing the activePage 
+  //Changing the activePage
   handlePageChange = (pageNumber) => {
     this.setState({
       activePage: pageNumber,

@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Form,
-  Button,
-  FormGroup,
-  FormLabel,
-  FormControl,
-  Card,
-} from "react-bootstrap";
+import { Form, Button, FormGroup, FormControl, Card } from "react-bootstrap";
 import { connect } from "react-redux";
 import { addFriend } from "../../state/actions";
 import "./FormInputComponent.css";

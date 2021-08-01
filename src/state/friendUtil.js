@@ -11,7 +11,6 @@ export const addFavFriend = (friendsList, index) => {
   return favList.sort((a, b) => b.favourite - a.favourite);
 };
 
-
 //mapping through the friendsList and checking if a name includes the entered input in search field and if true setting the searched value
 //to true and sorting on true
 export const searchFriendsFromList = (friendsList, name) => {
